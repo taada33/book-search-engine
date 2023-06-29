@@ -36,7 +36,6 @@ const resolvers = {
 
     saveBook: async(parent, {authors, image, link, description, title, bookId}, context) => {
       const body = {authors, image, link, description, title, bookId};
-      console.log(body);
       if(context.user){
         try {
           const updatedUser = await User.findOneAndUpdate(
