@@ -19,7 +19,7 @@ A Google Books API search engine employing a GraphQL API built with Apollo Serve
 
 ## Installation
 
-To deploy to localhost, first install all the required packages by `running npm i`. Secondly seed the database by running npm run seed in your CLI. The application can then be started by running `npm run develop`. Then the application can be viewed by directing your browser to http://localhost:3001/.
+To deploy to localhost, first install all the required packages by running `npm i`. Secondly seed the database by running npm run seed in your CLI. The application can then be started by running `npm run develop`. Then the application can be viewed by directing your browser to http://localhost:3001/.
 
 ## Usage
 
